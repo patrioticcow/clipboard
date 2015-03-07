@@ -1,7 +1,7 @@
-Delay for YouTube TM
-====================
+Clipboard
+=========
 
-de.lay 1.verb - make (someone or something) late or slow. 2.noun - a period of time by which something is late or postponed.
+Store copy items to Clipboard to be retrieved at a lather point
 
 https://chrome.google.com/webstore/detail/areatime/geiblkaaibihclncpdljbfdbhbokelbg?hl=en&gl=US
 

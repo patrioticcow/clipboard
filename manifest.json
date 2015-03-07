@@ -20,7 +20,7 @@
   },
   "browser_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "Delay for YouTube TM",
+    "default_title": "Clipboard",
     "default_popup": "src/browser_action/browser_action.html"
   },
   "permissions": [
