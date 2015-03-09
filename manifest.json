@@ -1,6 +1,6 @@
 {
   "name": "Clipboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Store copy items to Clipboard to be retrieved at a lather point",
   "homepage_url": "https://github.com/patrioticcow/clipboard",

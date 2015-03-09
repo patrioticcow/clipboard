@@ -17,6 +17,6 @@
 document.oncopy = function (event) {
     var selection = window.getSelection();
     var selectionText = selection.toString();
-    console.log(selectionText);
+
     chrome.runtime.sendMessage({selectionText: selectionText});
 };

@@ -1,20 +1,35 @@
 <!doctype html>
+<head>
+	<link rel="stylesheet" href="/src/inject/jquery-ui.min.css">
 
-<style type="text/css">
-	#mainPopup { padding : 10px; min-height : 200px; width : 490px; font-family : Helvetica, Ubuntu, Arial, sans-serif; }
-	h1 { font-size : 2em; }
-	tr:hover { background : #F8F8F8 }
-</style>
+	<style type="text/css">
+		body{ background :#434D55; }
+		#mainPopup{ padding :10px; min-height :200px; width :562px; font-family :Helvetica, Ubuntu, Arial, sans-serif; }
+		.remove_btn{ margin :0 5px 0 0; float :left; background :#595454; color :#FFF; border :2px solid #323232; }
+		h1{ font-size :2em; }
+		tr:hover{ background :#F8F8F8 }
+		#sortable1, #sortable2{ list-style-type :none; padding :0; }
+		#sortable1 li, #sortable2 li{ margin :0 0 5px 0; padding :5px; }
+		#sortable1{ border-radius :6px; min-height :26px; background :#323232; padding :5px; }
+		#sortable2{ border-radius :6px; min-height :26px; background :#3C464E; padding :5px; }
+		.portlet-handle{ float :left; padding :3px; background :#505B65; margin :0 0 0 5px; cursor :move; color :#6DCDE9 }
+		.ui-state-highlight{ background :#66727C; border-radius :5px; border :1px solid #374047; }
+		.textarea{ width :456px; float :left; background :#323232; color :#FFF; resize :vertical; }
+	</style>
+</head>
 
 <div id="mainPopup">
-	<h3 style="margin-top: 0;">Clipboard</h3>
+	<div style="color: #E4E4E4;">Primary <span id="primary_saved" style="color: #00E100;display:none;">saved</span></div>
+	<ul id="sortable1" class="droptrue"></ul>
 
-	<table>
-		<tbody id="placeholder"></tbody>
-	</table>
+	<div style="color: #E4E4E4;">Secondary <span id="secondary_saved" style="color: #00E100;display:none;">saved</span></div>
+	<ul id="sortable2" class="droptrue"></ul>
+
+	<br style="clear:both">
 </div>
 
 <div id="helpContainer"></div>
 
 <script type="text/javascript" src="/src/inject/jquery.min.js"></script>
+<script type="text/javascript" src="/src/inject/jquery-ui.min.js"></script>
 <script type="text/javascript" src="main.js"></script>
